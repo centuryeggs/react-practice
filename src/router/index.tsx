@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom"
-import { Layout } from "../pages/Layout/index.tsx"
-import { Month } from "../pages/Month/index.tsx"
-import { Year } from "../pages/Year/index.tsx"
-import { New } from "../pages/New/index.tsx"
-import { NotFound } from "../pages/NotFound/index.tsx"
+import { Layout } from "@/pages/Layout/index.tsx"
+import { Month } from "@/pages/Month/index.tsx"
+import { Year } from "@/pages/Year/index.tsx"
+import { New } from "@/pages/New/index.tsx"
+import { NotFound } from "@/pages/NotFound/index.tsx"
 
 const router = createBrowserRouter([
   {
